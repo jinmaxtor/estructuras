@@ -22,12 +22,22 @@ public class NodoBinario<T> {
     private NodoBinario<T> hijoIzquierdo;
     private NodoBinario<T> hijoDerecho;
 
+    /**
+     *
+     * @param dato
+     * @param hijoIzquierdo
+     * @param hijoDerecho
+     */
     public NodoBinario(T dato, NodoBinario<T> hijoIzquierdo, NodoBinario<T> hijoDerecho) {
         this.dato = dato;
         this.hijoIzquierdo = hijoIzquierdo;
         this.hijoDerecho = hijoDerecho;
     }
 
+    /**
+     *
+     * @param dato
+     */
     public NodoBinario(T dato) {
         this(dato, null, null);
     }
