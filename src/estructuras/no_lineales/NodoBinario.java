@@ -42,38 +42,74 @@ public class NodoBinario<T> {
         this(dato, null, null);
     }
 
+    /**
+     *
+     * @return
+     */
     public T getDato() {
         return dato;
     }
 
+    /**
+     *
+     * @param dato
+     */
     public void setDato(T dato) {
         this.dato = dato;
     }
 
+    /**
+     *
+     * @return
+     */
     public NodoBinario<T> getHijoIzquierdo() {
         return hijoIzquierdo;
     }
 
+    /**
+     *
+     * @param hijoIzquierdo
+     */
     public void setHijoIzquierdo(NodoBinario<T> hijoIzquierdo) {
         this.hijoIzquierdo = hijoIzquierdo;
     }
 
+    /**
+     *
+     * @return
+     */
     public NodoBinario<T> getHijoDerecho() {
         return hijoDerecho;
     }
 
+    /**
+     *
+     * @param hijoDerecho
+     */
     public void setHijoDerecho(NodoBinario<T> hijoDerecho) {
         this.hijoDerecho = hijoDerecho;
     }
     
+    /**
+     *
+     * @return
+     */
     public boolean tieneHijoIzquierdo() {
         return this.hijoIzquierdo != null;
     }
     
+    /**
+     *
+     * @return
+     */
     public boolean tieneHijoDerecho() {
         return this.hijoDerecho != null;
     }
     
+    /**
+     *
+     * @return
+     */
     public boolean esHoja() {
         return this.hijoIzquierdo == null && this.hijoDerecho == null;
     }
