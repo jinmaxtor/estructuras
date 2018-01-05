@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}-------------------------------------------------------------------------
+${licensePrefix}${name}.java                                     Autor: ${user}
+${licensePrefix}Descripcion: 
+${licensePrefix}Estructuras de Datos en java                            Santa Cruz 2018
+${licensePrefix}-------------------------------------------------------------------------
+<#if licenseLast??>
+${licenseLast}
+</#if>
