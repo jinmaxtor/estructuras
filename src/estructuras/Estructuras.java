@@ -5,12 +5,8 @@
  */
 package estructuras;
 
-import com.sun.org.glassfish.external.probe.provider.annotations.Probe;
-import estructuras.fundamentos.asociaciones.Persona;
 import estructuras.fundamentos.asociaciones.Profesor;
 import estructuras.fundamentos.asociaciones.Universidad;
-import estructuras.no_lineales.NodoBinario;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
@@ -45,11 +41,7 @@ public class Estructuras {
         uagrm.adicicionarDepartamento("Matemáticas", miembros);
         miembros.clear();
         Collections.addAll(miembros, mirian, claure);
-        uagrm.adicicionarDepartamento("Inglés", miembros);;
-        
-        
-        
-        
+        uagrm.adicicionarDepartamento("Inglés", miembros);
         
     }
     
