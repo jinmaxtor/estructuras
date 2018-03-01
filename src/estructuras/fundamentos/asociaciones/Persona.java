@@ -1,6 +1,6 @@
 /*
  * -------------------------------------------------------------------------
- * Persona.java                                     Autor: Yimmy
+ * Persona.java                                   Autor: Yimmy Quispe Yujra
  * Descripcion: Clase simple utilizada para ejemplificar las asociaciones
  * en clases java.
  * Estructuras de Datos en java                            Santa Cruz 2018
