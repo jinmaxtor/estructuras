@@ -20,6 +20,6 @@ public class PrimerPrograma {
      * @param args argumentos para la linea de comandos
      */
     public static void main(String[] args) {
-        System.out.println("Holas compas, digo mundo v: !!!");
+        System.out.println("Hola compas, digo mundo v: !!!");
     }
 }
