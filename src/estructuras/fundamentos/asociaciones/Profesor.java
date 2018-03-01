@@ -1,6 +1,6 @@
 /*
  * -------------------------------------------------------------------------
- * Profesor.java                                     Autor: Yimmy
+ * Profesor.java                                  Autor: Yimmy Quispe Yujra
  * Descripcion: Clase utilizada para representar las asociaciones.
  * Estructuras de Datos en java                            Santa Cruz 2018
  * -------------------------------------------------------------------------
